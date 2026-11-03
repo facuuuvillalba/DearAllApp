@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ComApp",
+    "slug": "comapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "comapp",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/REEMPLAZAR-CON-TU-PROJECT-ID",
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.empresa.comapp"
+    },
+    "android": {
+      "package": "com.empresa.comapp",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-asset",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
